@@ -13,6 +13,9 @@
     },
     "author": "Stephen Sullivan",
     "license": "MIT",
+    "dependencies": {
+        "data-table-react": "file:packages/data-table-react"
+    },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^28.0.2",
         "@rollup/plugin-node-resolve": "^16.0.0",

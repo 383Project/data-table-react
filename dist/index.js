@@ -154,7 +154,7 @@ const DataTable = ({ endpoint: defaultEndpoint, endpointMethod = "GET", endpoint
     const [filters, setFilters] = useState([]);
     useEffect(() => {
         if (endpoint) {
-            const params = Object.assign(Object.assign({}, endpointParams), { per_page: perPage, sort_by: sortBy, direction: sortDirection, search,
+            const params = Object.assign(Object.assign({}, endpointParams), { per_page: perPage, sort: sortBy, direction: sortDirection, search,
                 filters });
             setLoading(true);
             fetchUrl(endpoint, endpointMethod, params)
