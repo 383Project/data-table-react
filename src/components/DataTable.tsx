@@ -93,7 +93,7 @@ const DataTable: React.FC<DataTableProps> = ({
             const params = {
                 ...endpointParams,
                 per_page: perPage,
-                sort_by: sortBy,
+                sort: sortBy,
                 direction: sortDirection,
                 search,
                 filters,
